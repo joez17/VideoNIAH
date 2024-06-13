@@ -42,7 +42,7 @@ We utilize VideoNIAH to compile a video benchmark **VNBench**, including tasks s
 
 
 ## 🔍 Dataset
-Download the raw videos in VNBench from the [google drive link](https://drive.google.com/file/d/1BryNErpSIO-5UBvgyMqo21nwGeDrO65z/view?usp=sharing).
+Download the raw videos in VNBench from the [google drive link](https://drive.google.com/file/d/1KOUzy07viQzpmpcBqydUA043VQZ4nmRv/view?usp=sharing).
 Download the annotation of VNBench from the [huggingface link](https://huggingface.co/datasets/Joez1717/VNBench/tree/main)
 **License**:
 ```
