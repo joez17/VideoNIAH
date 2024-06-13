@@ -1,0 +1,12 @@
+{"question_id": "3261112327_ret_insert1_0", "pred": "D", "gt": "D", "type": "ret_insert1", "try": 0, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_insert1_1", "pred": "B", "gt": "B", "type": "ret_insert1", "try": 1, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_insert1_2",  "pred": "B", "gt": "B", "type": "ret_insert1", "try": 2, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_insert1_3", "pred": "A", "gt": "A", "type": "ret_insert1", "try": 3, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_insert2_0", "pred": "D", "gt": "D", "type": "ret_insert2", "try": 0, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_insert2_1", "pred": "B", "gt": "B", "type": "ret_insert2", "try": 1, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_insert2_2",  "pred": "B", "gt": "B", "type": "ret_insert2", "try": 2, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_insert2_3", "pred": "A", "gt": "A", "type": "ret_insert2", "try": 3, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_edit1_0", "pred": "D", "gt": "B", "type": "ret_edit1", "try": 0, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_edit1_1", "pred": "A", "gt": "B", "type": "ret_edit1", "try": 1, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_edit1_2",  "pred": "C", "gt": "B", "type": "ret_edit1", "try": 2, "prompt": 'INFERENCE PROMPT'}
+{"question_id": "3261112327_ret_edit1_3", "pred": "A", "gt": "A", "type": "ret_edit1", "try": 3, "prompt": 'INFERENCE PROMPT'}
