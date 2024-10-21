@@ -86,10 +86,7 @@ python gpt_judge.py \
 
 ## 📈 Experimental Results
 - **Evaluation results of different Video MLLMs.**
-
-<p align="center">
-    <img src="./asset/performance.png" width="96%" height="50%">
-</p>
+Please visit the [leaderboard](https://videoniah.github.io/) for more details.
 
 
 
