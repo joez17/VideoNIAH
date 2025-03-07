@@ -19,7 +19,7 @@
 
 ## 🔥 News
 * **`2024.06.13`** 🌟 We are very proud to launch VideoNIAH, a scalable synthetic method for benchmarking video MLLMs, and VNBench, a comprehensive video synthetic benchmark!
-
+* **`2024.03.07`** 🌟 VideoNIAH has been accepted as a poster presentation at ICLR 2025.
 
 
 ## 👀 Overview
@@ -83,6 +83,8 @@ python gpt_judge.py \
     --input_file $INPUT_FILE \
     --output_file $OUTPUT_FILE 
 ```
+
+For convenience, we provide [evaluation code examples](./llava_examples) for the [llavanext](https://github.com/LLaVA-VL/LLaVA-NeXT) series models.
 
 ## 📈 Experimental Results
 - **Evaluation results of different Video MLLMs.**

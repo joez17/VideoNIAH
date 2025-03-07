@@ -7,6 +7,8 @@ def get_detail_result(data):
     res = []
     processed_data = {}
     for d in data:
+        if not 'judge_result' in d:
+            d['judge_result'] = 1 if d['pred'][0]==d['gt'] else 0
         if d['video_path'] in task_result:
             task_result[d['video_path']] += d['judge_result']  
         else:
@@ -43,7 +45,11 @@ def get_detail_result(data):
             res['cnt'] += acc[k]
         if 'ret' in k:  
             res['ret'] += acc[k]
+    tmp = acc['ret_insert1']
+    acc['ret_insert1'] = acc['ret_insert2']
+    acc['ret_insert2'] = tmp
     acc = {key: acc[key] for key in sorted(acc.keys())}
+
     res['ord'] = res['ord']/3
     res['cnt'] = res['cnt']/3
     res['ret'] = res['ret']/3
@@ -54,5 +60,21 @@ def get_detail_result(data):
 
     return acc
 
-    
-
+import argparse
+import json
+import os
+def parse_args():
+    """
+    Parse command-line arguments.
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--result_path", help="result path, jsonl format", required=True)
+    return parser.parse_args()
+if __name__ == "__main__":
+    args = parse_args()
+    # if '.jsonl' in args.result_path:
+    #     data = [json.loads(q) for q in open(os.path.expanduser(args.result_path), "r")]
+    # else:
+    #     data = json.load(open(args.result_path))
+    data = [json.loads(q) for q in open(os.path.expanduser(args.result_path), "r")]
+    print(get_detail_result(data))
