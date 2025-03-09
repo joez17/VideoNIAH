@@ -19,7 +19,7 @@
 
 ## 🔥 News
 * **`2024.06.13`** 🌟 We are very proud to launch VideoNIAH, a scalable synthetic method for benchmarking video MLLMs, and VNBench, a comprehensive video synthetic benchmark!
-* **`2024.03.07`** 🌟 VideoNIAH has been accepted as a poster presentation at ICLR 2025.
+* **`2025.03.07`** 🌟 VideoNIAH has been accepted as a poster presentation at ICLR 2025.
 
 
 ## 👀 Overview
